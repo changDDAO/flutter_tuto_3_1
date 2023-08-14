@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyCustomForm extends StatefulWidget {
-  const MyCustomForm({super.key});
+class MyCustomForm2 extends StatefulWidget {
+  const MyCustomForm2({super.key});
 
   @override
-  State<MyCustomForm> createState() => _MyCustomFormState();
+  State<MyCustomForm2> createState() => _MyCustomForm2State();
 }
 
-class _MyCustomFormState extends State<MyCustomForm> {
+class _MyCustomForm2State extends State<MyCustomForm2> {
   late FocusNode myFocusNode;
   @override
   void initState(){

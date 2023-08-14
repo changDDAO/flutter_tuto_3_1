@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     const title = 'InkWell Demo';
     return const MaterialApp(
       title: title,
-      home: MyCustomForm(),
+      home: MyCustomForm2(),
     );
   }
 }
