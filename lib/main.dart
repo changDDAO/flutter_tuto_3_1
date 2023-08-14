@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'login_form.dart';
 
 void main() =>runApp(const MyApp());
 class MyApp extends StatelessWidget {
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     const title = 'InkWell Demo';
     return const MaterialApp(
       title: title,
-      home: MyHomePage(title: title),
+      home: loginForm(),
     );
   }
 }
