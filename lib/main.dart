@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tuto_3_1/retrieve_text.dart';
-import 'my_custom_form.dart';
-import 'login_form.dart';
+import 'package:flutter_tuto_3_1/snackbar_page.dart';
+import 'video_player_screen.dart';
+
 
 void main() =>runApp(const MyApp());
 class MyApp extends StatelessWidget {
@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const title = 'InkWell Demo';
-    return const MaterialApp(
+    const title = 'validate Test';
+    return MaterialApp(
       title: title,
-      home: MyCustomForm2(),
+      home: VideoPlayerScreen(),
     );
   }
 }
