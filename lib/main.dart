@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tuto_3_1/snackbar_page.dart';
+import 'package:flutter_tuto_3_1/tab_bar.dart';
 import 'video_player_screen.dart';
 
 
@@ -10,10 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const title = 'validate Test';
-    return MaterialApp(
-      title: title,
-      home: VideoPlayerScreen(),
-    );
+    return tabBarDemo();
   }
 }
 class MyHomePage extends StatelessWidget {
